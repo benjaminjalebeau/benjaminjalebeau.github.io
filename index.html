@@ -11,10 +11,11 @@
     <script src="scripts.js"></script>
 </head>
 
-<body>
+<body onload="getyear()">
     <header>
+        <img alt="Portrait of Ben" src="https://github.com/benjaminjalebeau/benjaminjalebeau.github.io/blob/master/Optimized-Me%20and%20Gramma%20Dorothy%20(1).png?raw=true">
         <h1>Benjamin J. LeBeau</h1>
-        <img alt="Portrait of Ben" src=""> 
+         
     </header>
     
     <main>
@@ -28,8 +29,9 @@
 
     <footer>
         <p>
-            &copy; | Benjamin J. LeBeau | Utah | <a href = "https://www.byui.edu/online">BYUI Online Learning</a>
+            &copy; <span id="current_year"></span> | Benjamin J. LeBeau | Utah | <a href = "https://www.byui.edu/online">BYUI Online Learning</a>
         </p>
+        <div>Last Modified: <span id="last_modified"></span></div>
     </footer>
 </body>
 </html>
