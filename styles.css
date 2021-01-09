@@ -1,1 +1,21 @@
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+ h1 {
+    color: #37D2D2;
+    background-color: #37392D;
+ }
 
+ footer {
+     background-color: #37392D;
+ }
+
+ footer p{
+     color: snow;
+ }
+
+ p {
+     font-family: 'Times New Roman', Times, serif;
+ }
