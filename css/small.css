@@ -7,6 +7,7 @@ h2{
     margin-left: 15px;
     margin-right: 20px;
     border-bottom: solid rgb(216, 210, 210) 1px;
+    font-size: 1em;
 }
 
 ul {
@@ -17,16 +18,20 @@ ul {
 
 h1,
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    font-family: 'Oswald', sans-serif;
 }
  h1 {
     color: #86ffff;
-    background-color: #37392D;
     border-radius: 10px;
     padding: 18px;
+    font-size: 1.5em;
+ }
+
+ header {
+    background-color: #37392D;
     text-align: center;
-    font-size: 2.5em;
+
  }
 
  footer {
@@ -45,11 +50,10 @@ h2 {
  }
 
  img {
-     max-width: 20%;
-     float: right;
-     border-radius: 3px;
+     max-width: 220px;
      margin: 15px;
-     box-shadow: -5px 5px 15px grey;
+     padding: auto;
+     
  }
 
  footer a {
@@ -58,6 +62,7 @@ h2 {
 
  li {
      letter-spacing: .5px;
+     font-family: 'Indie Flower', cursive;
  }
 
  #current_year{
