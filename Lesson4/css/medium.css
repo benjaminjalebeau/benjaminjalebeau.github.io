@@ -1,3 +1,28 @@
 @media only screen and (min-width: 560px) {
 
+    header img {width: 100px;}
+
+    nav button {display: none;}
+
+    nav {display: flex;}
+
+    nav ul {margin: 0 auto;text-align: center;}
+
+    nav ul.hide {display: block;}
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        border: none;
+        border-right: .8rem;
+        padding: .8rem .5rem;
+        font-size: .9rem;
+    }
+
+    footer {
+        max-width: 760px;
+        margin: auto;
+    }
 }
