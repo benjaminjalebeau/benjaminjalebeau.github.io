@@ -54,6 +54,8 @@
 
     #contact img {
         display: block;
+        float: left;
+        margin-right: 2rem;
     }
     
     .item img {
