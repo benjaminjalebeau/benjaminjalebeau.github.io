@@ -75,6 +75,7 @@ main h1{
     text-align: center;
 }
 
+.fiveday {text-align: center;}
 .item {
     margin: auto;
     max-width: 840px;
