@@ -1,0 +1,152 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+body {font-family: 'Noto Serif', serif;}
+h1, h2, h3, h4 {font-family: 'Josefin Sans', sans-serif;}
+
+      /* Header */
+header {
+    padding: .5rem 2%;
+    background-color: #D5CDC3;
+    text-align: center;
+    }
+header img {margin-right: 10px; width: 50px;}
+header h1 {margin: 0; font-size: 2.3em;}
+header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+
+/*Nav*/
+nav button {
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #C6A295;
+    align-self: center;
+    padding: .5rem;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #1D1E18;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .5rem 2%;
+    text-decoration: none;
+    color: #C6A295;
+    font-size: .9rem;
+
+    
+}
+nav ul li a:hover {
+    background-color: rgb(71, 70, 70);
+}
+
+nav ul li.active a {
+    background-color: #C6A295;
+    color: #000000;
+}
+
+nav ul.hide{display: none;}
+
+footer {
+    background-color: #D5CDC3;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+main {max-width:820px;margin:0 auto;}
+main h1{
+    text-align: center;
+}
+
+.herodiv {margin: auto ;position: relative; text-align: center;}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	background: radial-gradient(#eee, #e68020);
+	border: 1px solid #000;
+	padding: .5rem;
+	box-shadow: 0 0 30px #111;
+	opacity: .7;
+}
+
+.herodiv img{width: 100%; max-height: 250px ; object-fit: cover;}
+
+.fiveday h2{display: none;}
+
+section.forecast{display: none;}
+.item {
+    margin: auto;
+    max-width: 840px;
+    border: solid rgb(133, 129, 129);
+    color: rgb(0, 0, 0, .7);
+    background-color: #D5CDC3;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow: auto;
+      
+  }
+
+figcaption {
+      font-size: .5rem;
+  }
+
+
+.item figcaption{
+    float: right;
+}
+
+#article {
+    text-align: center;
+}
+
+#article h2, #article p {
+    text-align: left;
+}
+.item img {
+    padding: 1rem;
+    
+}
+
+#contact img {
+    display: none;
+}
+
+
+#contact ul li h5{
+    padding: 0;
+    margin: 0;
+}
+#contact ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#message {
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+}
+
+div.showme{display: block;}
+div.hideme{display: none;}
