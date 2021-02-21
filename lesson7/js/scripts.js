@@ -1,25 +1,23 @@
-let imagesToLoad = document.querySelectorAll('img[data-src]');
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
 
+function getyear(){
+    let d = new Date();
+    
+    document.getElementById('current_year').textContent = d.getFullYear();
+    document.getElementById('current_date').textContent = d.toDateString();
+    }
 
-const loadImages = (image) => {
-  image.setAttribute('src', image.getAttribute('data-src'));
-  image.onload = () => {image.removeAttribute('data-src');};
-};
+const today = new Date();
+console.log(today);
 
-  if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
-        }
-      });
-    });
-    imagesToLoad.forEach((img) => {
-      observer.observe(img);
-    });
-  } else {
-    imagesToLoad.forEach((img) => {
-      loadImages(img);
-    });
-  }
+const dayNumber = today.getDay();
+console.log(dayNumber);
+
+const element = document.getElementById("message");
+if (dayNumber == 6) {
+    element.classList.add("showme");
+} else {
+    element.classList.add("hideme");
+}
