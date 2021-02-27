@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Preston town page">
+<meta name="author" content="Benjamin LeBeau">
+
+<title>Preston Town Page | Ben LeBeau</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Noto+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body onload="getyear()">
+    <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/WetorDryDog_logo.png" alt="logo">
+        <h1>Wet Or Dry Dog</h1>
+        <h2>Keep your pet safe and healthy!</h2>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="index.html">Soda Springs</a></li>
+            <li><a href="index.html">Fish Haven</a></li>
+            <li class="active"><a href="index.html">Storm Center</a></li>
+            <li><a href="index.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <div class="banner">
+            <h1>Report a Storm!</h1>
+            <img class="stormbanner" src="https://via.placeholder.com/300/400" data-src="images/lightning.jpg" alt="banner">
+
+        </div>
+        
+        <form method="get" action="stormthanks.html">
+
+            <fieldset>
+    
+                <legend>Your Info</legend>
+                <label class="top">Full Name*<input type="text" name="fullname"  pattern="[A-Za-z].{4,}" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="example@gmail.com"></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235554321" required></label>
+                <label class="top">Zip Code*<input type="number" name="zip" placeholder="12345" required></label>
+    
+            </fieldset>
+    
+            <fieldset>
+
+                <legend>Storm Info</legend>
+                <label class="top">Date of Storm<input type="date" name="dateStorm"></label>
+                <label class="top">Storm Region
+                    <select name="subject">
+                        <option value="">Select Region &#9662;</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                       
+                    </select>
+                </label>
+                <label class="slider_container">Storm Severity (1-10) <input type="range" min="0" max="10" value="5" name="severityStorm" class="slider" id="myRange"></label>
+                <p>Severity: <span id="sliderVal"></span></p>
+                <div>What are the Conditions?</div>
+                <label class="sbs"><input type="checkbox" name="hail" value="yes"> Hail</label>
+                <label class="sbs"><input type="checkbox" name="snow" value="yes"> Snow</label>
+                <label class="sbs"><input type="checkbox" name="rain" value="yes"> Rain</label>
+                <label class="sbs"><input type="checkbox" name="lightning" value="yes"> Lightning</label>
+                <label class="sbs"><input type="checkbox" name="wind" value="yes"> Strong Winds</label>
+                <div>Are You in Danger?</div>
+                <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Any Other Info or Comments?</legend>
+                <label class="top" id="comment">Enter Here:<textarea  name="comments" rows="4" cols="50"></textarea>
+                
+    
+    
+            </fieldset>
+    
+            <input type="submit" value="Report Storm" class="submitBtn">
+    
+        </form>
+      
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; <span id="current_year"></span> | Benjamin J. LeBeau | Utah | <a href = "https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+        <div><span id="current_date"></span></div>
+
+    
+    </footer>
+<script src="js/windchill.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({google: {families: ["Noto Serif", "Josefin Sans"]}})
+</script>
+<script src="js\lazyload.js" defer></script>
+</body>
+</html>
