@@ -1,0 +1,91 @@
+@media only screen and (min-width: 560px) {
+
+    header img {width: 100px;}
+
+    nav button {display: none;}
+
+    nav {display: flex;}
+
+    nav ul {margin: 0 auto;text-align: left;}
+
+    nav ul.hide {display: block;}
+    
+    nav ul li{
+        float: left;
+    }
+    
+    nav ul li a{
+        border: none;
+        border-right: .8rem;
+        padding: .8rem .6rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        max-width: 760px;
+        margin: auto;
+    }
+
+    .fiveday {display: block;}
+
+    .fiveday h2{text-align: center; display: block;}
+
+    section.forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    section.forecast div{
+        text-align: center;
+        border: 1px solid rgb(133, 129, 129);
+    }
+    section.forecast div h5{
+        background-color: #D5CDC3;
+        margin: 0;
+        padding: .5rem 0;
+    }
+
+    section.forecast div img{
+        width: 50px;
+        padding: 5px;
+    }
+
+    #contact img {
+        display: block;
+        float: left;
+        margin-right: 2rem;
+    }
+    
+    .item img {
+        float: right;
+        padding: 1rem;
+        width: auto;
+    }
+
+    /*Gallery box*/
+    #gallery_grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /*-----------Home Page---------------*/
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
+        max-width: 1000px;
+        padding: 1rem;
+    }
+
+
+    .cards section:nth-child(odd) img, .cards section img{
+        float: unset;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+       
+    .cards h2{
+        margin-top: 0;
+    }
+}
