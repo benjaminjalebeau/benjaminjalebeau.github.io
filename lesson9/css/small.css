@@ -423,3 +423,11 @@ form #comment textarea{
 #contact img{
     margin: 1rem;
 }
+
+.wireframe {
+    text-align: center;
+}
+
+.wireframe img {
+    margin-bottom: 2.4rem;
+}
