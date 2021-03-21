@@ -127,6 +127,16 @@ figcaption {
     
 }
 
+#article img {
+    width: 100%;
+    margin: auto;
+}
+
+.geyser {
+    max-width: 70%;
+
+}
+
 #contact img {
     display: none;
 }
