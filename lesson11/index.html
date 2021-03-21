@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="home page">
+<meta name="author" content="Benjamin LeBeau">
+
+<title>Wet or Dry Home | Ben LeBeau</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Noto+Serif&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body onload="getyear()">
+    <div id="message">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+        <img src="images/WetorDryDog_logo.png" alt="logo">
+        <h1>Wet Or Dry Dog</h1>
+        <h2>Keep your pet safe and healthy!</h2>
+    </header>
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda.html">Soda Springs</a></li>
+            <li><a href="fish.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+    </nav>
+    <div class="banner">
+        <h1>Home</h1>
+        <img class="stormbanner" src="images/sky.jpg">
+    </div>
+    
+
+    <main>
+        <div class="cards">
+
+        </div>
+        
+        <div id="chart" class="clearfix">
+            <h2>Should You Take Out Your Pet?</h2>
+            <picture>
+                <img src="https://via.placeholder.com/300/400" data-src="images/pet_chart.jpg">
+            </picture>
+            <p>You know, <strong>dog's are great</strong>, so make sure you check the weather when you take them out to play. <strong>Take a look at this chart</strong> as a guide! Anyway, here is a bunch of filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+        </div>
+
+        <div class="item" id="contact">
+            <img src="images/map.jpg" alt="map of location">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>
+                    <h5>Address:</h5>
+                    <p>5355 W Main St, Herriman, UT 84096</p>
+                </li>
+                <li>
+                    <h5>Phone:</h5>
+                    <p>(801) 555-1234</p>
+                </li>
+                <li>
+                    <h5>Email</h5>
+                    <p>contact@ yoururl.com</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    
+
+
+    <footer>
+        <p>
+            &copy; <span id="current_year"></span> | Benjamin J. LeBeau | Utah | <a href = "https://www.byui.edu/online">BYUI Online Learning</a>
+        </p>
+        <div><span id="current_date"></span></div>
+
+    </footer>
+<script src="js/towndata.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({google: {families: ["Noto Serif", "Josefin Sans"]}})
+</script>
+<script src="js\lazyload.js" defer></script>
+</body>
+</html>
