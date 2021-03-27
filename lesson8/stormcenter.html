@@ -81,12 +81,17 @@
                 </label>
                 <label class="slider_container">Storm Severity (1-10) <input type="range" min="0" max="10" value="5" name="severityStorm" class="slider" id="myRange"></label>
                 <p>Severity: <span id="sliderVal"></span></p>
-                <div>Storm Type</div>
-                <label class="sbs"><input type="checkbox" name="hail" value="yes"> Hail</label>
-                <label class="sbs"><input type="checkbox" name="flood" value="yes"> Flash Flood</label>
-                <label class="sbs"><input type="checkbox" name="thunder" value="yes"> Hurricane</label>
-                <label class="sbs"><input type="checkbox" name="lightning" value="yes"> Thunder Storm</label>
-                <label class="sbs"><input type="checkbox" name="tornado" value="yes"> Tornado</label>
+                <div id='stormtypes'>Storm Type</div>
+                <input list="stormtype" name="storms" id="storms">
+                
+                <datalist id="stormtype">
+                    <option value="Hail">
+                    <option value="Flash Flood">
+                    <option value="Hurricane">
+                    <option value="Thunder Storm">
+                    <option value="Tornado">
+                </datalist>
+                
                 <div>Are You in Danger?</div>
                 <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
                 <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
