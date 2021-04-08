@@ -70,4 +70,18 @@
         padding: 0 2% 0 2%;
     }
 
+    #contactbox img{
+        display: block;
+        margin-right: 2%;
+    }
+
+    #contactbox ul{
+        margin: auto;
+    }
+
+    #contactbox ul li{
+        font-size: 1.2em;
+        line-height: 2.2em;
+    }
+
 }

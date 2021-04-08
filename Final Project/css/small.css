@@ -448,6 +448,29 @@ form #comment textarea{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+
+/*----------Contact----------*/
+#contactbox{
+    width: 100%;
+    background-color: #c4c46aa9 ;
+    border-radius: 5px;
+    padding: .5rem;
+    line-height: 2em;
+    
+}
+
+#contactbox ul li{
+    list-style: none;
+
+
+}
+
+#contactbox img{
+    float: left;
+    width: 50%;
+    display: none;
+}
 /*ClearFix*/
 .clearfix:after {
     content: "";
