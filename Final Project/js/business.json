@@ -1,0 +1,54 @@
+{
+    "business": [{
+        "name": "SnowShow Engineering Co.",
+        "city": "Vernal",
+        "number": "435-790-3964",
+        "email": "jeremey@snowshoeco.com",
+        "logo": "images/snowshoe.png",
+        "web": "https://snowshoeco.com"
+        },
+        {
+        "name": "Encore Land Services, Inc.",
+        "city": "Vernal",
+        "number": "435-789-2500",
+        "email": "j.hall@encorelandservices.com",
+        "logo": "http://www.encorelandservices.com/uploads/files/10/large/logo.png",
+        "web": "http://www.encorelandservices.com/"
+        },
+        {
+        "name": "Enefit American Oil",
+        "city": "South Jordan",
+        "number": "801-363-0206",
+        "logo": "images/enefit.png",
+        "web": "https://www.enefit.com/en/home"
+        },
+        {
+        "name": "Marathon Petroleum",
+        "city": "Vernal",
+        "number": "435-781-7476",
+        "logo": "images/marathon.png",
+        "web": "https://www.marathonpetroleum.com/"
+        },
+        {
+        "name": "R & R Oilfield Services",
+        "city": "Vernal",
+        "number": "435-781-8818",
+        "logo": "https://media-exp1.licdn.com/dms/image/C560BAQGmclb6egULzg/company-logo_200_200/0/1563381562883?e=2159024400&v=beta&t=Szdm47zrj_JwN0w_NGH1xqU35CMO6RxELqzReVQ2ugA",
+        "web": "https://randroilfieldservices.com/"
+        },
+        {
+        "name": "Superior Drilling Products",
+        "city": "Vernal",
+        "number": "435-631-2715",
+        "logo": "https://lh4.googleusercontent.com/-K_ruV5eWJAg/AAAAAAAAAAI/AAAAAAAAAAA/yLTSpu3P9cA/s48-p-k-no-ns-nd/photo.jpg",
+        "web": "No website"
+        },
+        {
+        "name": "ZECO",
+        "city": "Vernal",
+        "number": "435-781-0454",
+        "logo": "http://zeco.biz/wp-content/uploads/2015/07/logo-nav-v2-for-web.jpg",
+        "web": "http://zeco.biz/"
+        }   
+]
+}

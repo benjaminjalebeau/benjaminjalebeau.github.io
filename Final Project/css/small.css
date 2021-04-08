@@ -471,6 +471,16 @@ form #comment textarea{
     width: 50%;
     display: none;
 }
+
+.cards section{
+    margin: 5rem;
+    border: solid grey 1px;
+    text-align: center;
+
+}
+.cards section img{
+    max-width: 100px;
+}
 /*ClearFix*/
 .clearfix:after {
     content: "";
