@@ -1,5 +1,9 @@
 @media only screen and (min-width: 560px) {
     header button{display: none;}
+
+    body{
+        margin-top: 50px;
+    }
     #myHeader {
         grid-template-columns: 50px 3fr 4fr;
         padding-right: 2%;

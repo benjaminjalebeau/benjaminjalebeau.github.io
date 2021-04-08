@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6, nav a{
 }
 
 body{
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 
@@ -420,7 +420,34 @@ form #comment textarea{
 }
 
 
+/*---------About----------*/
+#banner_about {
+    max-width: 100%;
+}
+#banner_about img {
+    width: 100%;
+    object-fit: cover;
 
+    object-position: 45% 30%;
+}
+
+#jer{
+    float: left;
+    width: 45%;
+    margin-right: 2%;
+}
+#eliza{
+    float: right;
+    width: 45%;
+    margin-right: 2%;
+}
+#fam{
+    float: left;
+    width: 45%;
+    margin-right: 2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /*ClearFix*/
 .clearfix:after {
     content: "";
