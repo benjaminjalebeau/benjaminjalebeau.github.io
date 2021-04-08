@@ -27,6 +27,6 @@ fetch(requestURL)
         card.appendChild(web);
         card.appendChild(logo);
 
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div#cards').appendChild(card);
     }
   });

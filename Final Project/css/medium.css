@@ -84,4 +84,29 @@
         line-height: 2.2em;
     }
 
+    #cards.hide2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .hide2 section{
+        padding: 0;
+        margin: 0;
+
+    }
+    #listbutton{
+        display: block;
+        float: right;
+        margin: 1rem;
+        background-color: #999903;
+        color: white;
+        border: none;
+        padding: .5rem;
+    }
+    #listbutton:hover{
+        box-shadow: 5px 5px 10px 5px;
+        transition: all .3s;
+    }
+    
+
 }

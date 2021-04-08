@@ -2,6 +2,9 @@
 function toggleMenu() {
   document.getElementById("primaryNav").classList.toggle("hide");
 }
+function togglelist() {
+  document.getElementById("cards").classList.toggle("hide2");
+}
 
 function getyear(){
   let d = new Date();

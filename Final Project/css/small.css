@@ -471,15 +471,23 @@ form #comment textarea{
     width: 50%;
     display: none;
 }
-
-.cards section{
-    margin: 5rem;
+#cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+#cards section{
+    
     border: solid grey 1px;
     text-align: center;
 
 }
-.cards section img{
+#cards section img{
     max-width: 100px;
+}
+
+#listbutton{
+    display: none;
 }
 /*ClearFix*/
 .clearfix:after {
