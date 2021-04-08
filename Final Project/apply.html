@@ -52,45 +52,29 @@
 
     <main>   
     <div class="content">
-        
-        <form method="get" action="thanks.html">
+        <h2>Apply for a Service</h2>
+        <form method="get" action="thanks.html" class="clearfix">
 
             <fieldset>
     
                 <legend>Your Info</legend>
-                <label class="top">Full Name*<input type="text" name="fullname"  pattern="[A-Za-z].{4,}" required></label>
-                <label class="top">Email<input type="email" name="email" placeholder="example@gmail.com"></label>
-                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235554321" required></label>
-                <label class="top">Zip Code*<input type="number" name="zip" placeholder="12345" required></label>
+                <label class="top">First Name*<input type="text" name="firstname"  pattern="[A-Za-z].{4,}" required></label>
+                <label class="top">Last Name*<input type="text" name="lastname"  pattern="[A-Za-z].{4,}" required></label>
+                <label class="top">Title<input type="text" name="title"  pattern="[A-Za-z].{4,}"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235554321"></label>
+                
     
             </fieldset>
     
             <fieldset>
 
-                <legend>Storm Info</legend>
-                <label class="top">Date of Storm<input type="date" name="dateStorm"></label>
-                <label class="top">Storm Region
-                    <select name="subject">
-                        <option value="">Select Region &#9662;</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodasprings">Soda Springs</option>
-                        <option value="fishhaven">Fish Haven</option>
-                       
-                    </select>
-                </label>
-                <label class="slider_container">Storm Severity (1-10) <input type="range" min="0" max="10" value="5" name="severityStorm" class="slider" id="myRange"></label>
-                <p>Severity: <span id="sliderVal"></span></p>
-                <div>What are the Conditions?</div>
-                <label class="sbs"><input type="checkbox" name="hail" value="yes"> Hail</label>
-                <label class="sbs"><input type="checkbox" name="snow" value="yes"> Snow</label>
-                <label class="sbs"><input type="checkbox" name="rain" value="yes"> Rain</label>
-                <label class="sbs"><input type="checkbox" name="lightning" value="yes"> Lightning</label>
-                <label class="sbs"><input type="checkbox" name="wind" value="yes"> Strong Winds</label>
-                <div>Are You in Danger?</div>
-                <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
-                <label class="sbs"><input type="radio" name="audience" value="maybe"> Maybe</label>
-    
+                <legend>Business Info</legend>
+                <label class="top">Desired Service<input type="text" name="service" required></label>
+                <label class="top">Business Address<input type="text" name="bus_address" required>"</label>
+                <label class="top">Business Website<input type="text" name="bus_website"  pattern="[A-Za-z].{4,}"></label>
+                <label class="top">Business Description<input type="text" name="bus_description"  pattern="[A-Za-z].{4,}"></label>
+                
             </fieldset>
     
             <fieldset>
@@ -99,7 +83,7 @@
                 
             </fieldset>
     
-            <input type="submit" value="Report Storm" class="submitBtn">
+            <input type="submit" value="Apply" class="submitBtn">
     
         </form>
         
@@ -125,10 +109,10 @@
 
         <nav id="nav_bottom">
             <ul>
-                <li><a href="apply.html">Apply</a></li> |
-                <li><a href="about.html">About Us</a></li> |
-                <li><a href="directory.html">Directory</a></li> |
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="apply.html">Apply</a> |</li>
+                <li><a href="about.html">About Us</a> |</li>
+                <li><a href="directory.html">Directory</a> |</li>
+                <li><a href="contact.html">Contact Us</a> |</li>
             </ul>
         </nav>
 
@@ -166,5 +150,5 @@
 
 <a href="site_plan.html" id="siteplan">Site Plan</a>
 
-
+</body>
 </html>

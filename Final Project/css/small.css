@@ -19,6 +19,9 @@ h1,h2,h3,h4,h5,h6, nav a{
     letter-spacing: .2em;
 }
 
+body{
+    margin-top: 50px;
+}
 
 
 /*---------HEADER----------*/
@@ -140,7 +143,7 @@ header button:hover {
 }
 #weatherbox {
     position: absolute;
-    top: 40px;
+    top: 70px;
     left: 10px;
     background: radial-gradient(#999903e0, #99990300);
     padding: 1rem;
@@ -334,6 +337,90 @@ footer #copyright {
 #lastmod {
     grid-row: 6;
 }
+
+
+
+
+/*--------Apply---------*/
+form {
+    margin: auto;
+    max-width: 860px;
+    margin-top: 5rem;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 5px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #999903;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 1rem;
+    
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #999903;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+    width: 96%;
+    cursor: pointer;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+
+}
+
+
+form p{
+    font-size: .8rem;
+}
+
+
+form #comment textarea{
+    display: block;
+    max-width: 100%;
+}
+
+
+
 /*ClearFix*/
 .clearfix:after {
     content: "";
