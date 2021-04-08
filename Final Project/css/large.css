@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1028px) {
+    #myHeader{
+        grid-template-columns: 50px 2fr 3fr;
+    }
+    
+    #nav_top ul li a{
+        font-size: 1em;
+    }
+    
+    
+    .boxGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .boxGrid section img{
+        height: 200px;
+    }
+
+    .boxGrid section h3{
+        font-size: .8em;
+    }
+    
+    footer #nav_bottom{
+        margin-right: -200px;
+    }
+  
+
+    footer {  
+        grid-template-columns: 2fr 3fr;
+    }
+}
