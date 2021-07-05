@@ -8,9 +8,6 @@
     }
     
     
-    .boxGrid{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
 
     .boxGrid section img{
         height: 200px;

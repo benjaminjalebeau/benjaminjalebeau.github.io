@@ -489,12 +489,67 @@ form #comment textarea{
 #listbutton{
     display: none;
 }
+
+
+.lyle_bio {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
+.lyle_bio img {
+    width: 100%;
+}
+.lyle_bio #sheep {
+    max-height: 250px;
+    object-fit: cover;
+    object-position: 10% 20%;
+}
+
+
+.lyle_bio #lyle{
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+.lyle_bio .lyle-p1 {
+    grid-row: 2;
+    grid-column: 1/3;
+
+}
+
+.lyle_bio #lyle-girls {
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.lyle_bio .lyle-p2 {
+    grid-row: 3;
+    grid-column: 2/4;
+}
+
+.lyle_bio #sheep {
+    grid-column: 2 / 4;
+    grid-row: 4;
+    margin: auto;
+    
+}
+
 /*ClearFix*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
+
+.maintenance-banner {
+    background-color: yellow;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+}
 
 
 /*--Lazy Load--*/

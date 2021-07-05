@@ -107,6 +107,10 @@
         box-shadow: 5px 5px 10px 5px;
         transition: all .3s;
     }
+
+    .boxGrid {
+        grid-template-columns: 1fr 1fr;
+    }
     
 
 }
