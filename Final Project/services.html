@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Jeremy LeBeau">
-    <meta name="description" content="Directory Page for South Slope Drilling Co.">
-    <title>Home | South Slope</title>
+    <meta name="description" content="Homepage for South Slope Drilling Co.">
+    <title>Apply | South Slope</title>
 
     <!--CSS STYLE SHEETS-->
     <link rel="stylesheet" href="css/normalize.css">
@@ -26,21 +26,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 
-<body  onload="getyear()">
+<body>
     
     <header id="myHeader" class="clearfix">
 
         <img src="https://via.placeholder.com/50" data-src="images/logo.png" alt="Logo">
         <h1><span>South Slope</span> Drilling</h1>
+        <h2>Geotechnical & Environmental Drilling</h2>
         
         <button onclick="toggleMenu()">&#9776;</button>
         <nav id="nav_top" class="clearfix">
             
             <ul id="primaryNav" class="hide">
                 <li><a href="index.html">Home</a></li> 
-                <li><a href="apply.html">Apply</a></li>
+                <li class="active"><a href="services.html">Services</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li class="active"><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 
             </ul>
         </nav>
@@ -49,11 +50,27 @@
 
    
 
-    <main> 
-    <button id="listbutton" onclick="togglelist()">Toggle Grid</button> 
+
+    <main>   
+    
     <div class="content">
-        
-        <div id="cards"></div>
+        <h2 id="boxh2">Services</h2>
+        <div class="boxGrid">
+
+            <section>
+                
+                    <img src="https://via.placeholder.com/50" data-src="images/Cores.jpg" alt="cores">
+                    <h3>ROCK CORING AND ODEX</h3>
+                
+            </section>
+
+            <section>
+                
+                    <img src="https://via.placeholder.com/50" data-src="images/hollow_stem_auger.jpg" alt="logan drilling">
+                    <h3>HOLLOW STEM AUGER</h3>
+                
+            </section>
+        </div>
         
     
     </div>
@@ -68,8 +85,14 @@
             <ul>
                 <li>Jeremey LeBeau, P.E.</li>
                 <li>435.790.3964</li>
-                <li>jeremey@southslopeco.com</li>
+                <li>Jeremey@southslopedrilling.com</li>
                 <li>PO Box 301, Vernal UT 84078</li>
+            </ul>
+
+            <ul>
+                <li>Lyle Gardner</li>
+                <li>435.531.3368</li>
+                <li>Lyle@southslopedrilling.com</li>
             </ul>
 
 
@@ -79,7 +102,6 @@
             <ul>
                 <li><a href="apply.html">Apply</a> |</li>
                 <li><a href="about.html">About Us</a> |</li>
-                <li><a href="directory.html">Directory</a> |</li>
                 <li><a href="contact.html">Contact Us</a> |</li>
             </ul>
         </nav>
@@ -87,16 +109,16 @@
         <div id="social">
             <ul>
                 <li>
-                    <a href="index.html">
+                    <a href="https://www.facebook.com/South-Slope-Drilling-104591205011090">
                         <img src="https://via.placeholder.com/50" data-src="images/facebook_icon.png" alt="facebook">
                     </a>
                 </li>
 
-                <li>
+                <!--<li>
                     <a href="index.html">
                         <img src="https://via.placeholder.com/50" data-src="images/instagram_icon.png" alt="instagram">
                     </a>
-                </li>    
+                </li>-->    
             </ul>
         </div>
 
@@ -105,18 +127,17 @@
 
         </div>
         
-        <div id="lastmod">Last Modified: <span id="last_modified">
-        </span></div>
+       
         
         
     </footer>
 
+
 <!--Script Tags-->
 <script src="js/scripts.js"></script>
 <script src="js/lazyload.js" defer></script>
-<script src="js/direct.js"></script>
 
-<a href="site_plan.html" id="siteplan">Site Plan</a>
+
 
 </body>
 </html>

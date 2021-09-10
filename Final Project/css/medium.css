@@ -38,8 +38,12 @@
         box-shadow: #999903 2px 2px 8px 1px; 
     }
 
-    .boxGrid section img{
-        height: 250px;
+    .boxGrid section:hover{
+        margin: 2rem;
+    }
+
+    .boxGrid section:hover img{
+        height: 100%;
     }
 
     #box1 {
@@ -108,9 +112,9 @@
         transition: all .3s;
     }
 
-    .boxGrid {
+    /*.boxGrid {
         grid-template-columns: 1fr 1fr;
-    }
+    }*/
     
 
 }

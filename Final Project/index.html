@@ -26,19 +26,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 </head>
 
-<body  onload="getyear()">
+<body>
     
     <header id="myHeader" class="clearfix">
 
         <img src="https://via.placeholder.com/50" data-src="images/logo.png" alt="Logo">
         <h1><span>South Slope</span> Drilling</h1>
+        <h2>Geotechnical & Environmental Drilling</h2>
         
         <button onclick="toggleMenu()">&#9776;</button>
         <nav id="nav_top" class="clearfix">
             
             <ul id="primaryNav" class="hide">
                 <li class="active"><a href="index.html">Home</a></li> 
-                <li><a href="apply.html">Apply</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
                 
@@ -48,35 +49,8 @@
     </header>
 
     <div class="clearfix" id="banner_home">
-        <img class="clearfix" src="https://via.placeholder.com/150" data-src="images/Stinker.jpg" alt="Home Banner">
+        <img class="clearfix" src="https://via.placeholder.com/150" data-src="images/cover.jpg" alt="Home Banner">
         
-        <div id="weatherbox">
-            <h3>Vernal</h3>
-            <p>Temp: <span id="temp"></span>&#176;F</p>
-            <p>Condition: <span id="condition"></span></p>
-            <p>Humidity: <span id="humidity"></span>%</p>
-            <section id="forecast">
-                <h4>Next Three Days</h4>
-                <ul>
-                    <li>
-                        <h5 id="day1">#</h5>
-                        <p id="temp1"></p>
-                        <img id="icon1" src="#" alt="icon">
-                    </li>
-                    <li>
-                        <h5 id="day2">#</h5>
-                        <p id="temp2"></p>
-                        <img id="icon2" src="#" alt="icon">
-                    </li>
-                    <li>
-                        <h5 id="day3">#</h5>
-                        <p id="temp3"></p>
-                        <img id="icon3" src="#" alt="icon">
-                    </li>
-                </ul>
-            </section>
-
-        </div>
     </div>
 
 
@@ -98,23 +72,7 @@
        
           
             
-        <h2 id="boxh2">Services</h2>
-        <div class="boxGrid">
-
-            <section>
-                <a href="http://www.dfi.org/ISM/Proceedings/1999/V%20-%20Session%202A%20-%204%20-%20Liden.pdf">
-                    <img src="https://via.placeholder.com/50" data-src="images/Cores.jpg" alt="cores">
-                    <h3>ROCK CORING AND ODEX</h3>
-                </a>
-            </section>
-
-            <section>
-                <a href="https://www.astm.org/Standards/D6151.htm">
-                    <img src="https://via.placeholder.com/50" data-src="images/logan_drilling.jpg" alt="logan drilling">
-                    <h3>HOLLOW STEM AUGER</h3>
-                </a>
-            </section>
-        </div>
+        
 
     </main>
 
@@ -126,8 +84,14 @@
             <ul>
                 <li>Jeremey LeBeau, P.E.</li>
                 <li>435.790.3964</li>
-                <li>jeremey@southslopeco.com</li>
+                <li>Jeremey@southslopedrilling.com</li>
                 <li>PO Box 301, Vernal UT 84078</li>
+            </ul>
+
+            <ul>
+                <li>Lyle Gardner</li>
+                <li>435.531.3368</li>
+                <li>Lyle@southslopedrilling.com</li>
             </ul>
 
         </div>
@@ -143,32 +107,30 @@
         <div id="social">
             <ul>
                 <li>
-                    <a href="index.html">
+                    <a href="https://www.facebook.com/South-Slope-Drilling-104591205011090">
                         <img src="https://via.placeholder.com/50" data-src="images/facebook_icon.png" alt="facebook">
                     </a>
                 </li>
 
-                <li>
+                <!--<li>
                     <a href="index.html">
                         <img src="https://via.placeholder.com/50" data-src="images/instagram_icon.png" alt="instagram">
                     </a>
-                </li>    
+                </li>-->    
             </ul>
         </div>
 
         <div id="copyright">
             <p>&copy; 2021 South Slope Drilling Co.</p>
         </div>
-        <div id="lastmod">Last Modified: <span id="last_modified">
-        </span></div>
+
     </footer>
 
 <!--Script Tags-->
 <script src="js/scripts.js"></script>
 <script src="js/lazyload.js" defer></script>
-<script src="js/weather.js"></script>
 
-<a href="site_plan.html" id="siteplan">Site Plan</a>
+
 
 </body>
 </html>
