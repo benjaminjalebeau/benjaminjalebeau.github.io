@@ -477,6 +477,7 @@ form #comment textarea{
     border-radius: 5px;
     padding: .5rem;
     line-height: 2em;
+    margin-bottom: 1rem;
     
 }
 
@@ -565,6 +566,41 @@ form #comment textarea{
     
 }
 
+.brady_bio {
+    display: grid;
+    padding-top: 8rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 1em;
+}
+
+.brady_bio #brady {
+    grid-column: 1 / 2;
+    width: 100%;
+    grid-row: 1;
+}
+
+
+.brady_bio .brady-p1 {
+    grid-column: 2 / 4;
+    width: 100%;
+    grid-row: 1;
+    align-self: center;
+}
+
+
+.brady_bio #brady_diaper {
+    grid-column: 1 / 2;
+    width: 100%;
+    grid-row: 3;
+}
+
+.brady_bio #brady_family {
+    grid-column: 2 / 4;
+    width: 100%;
+    grid-row: 3;
+}
+
 /*ClearFix*/
 .clearfix:after {
     content: "";
@@ -578,6 +614,9 @@ form #comment textarea{
     padding: .5em;
     text-align: center;
 }
+
+
+
 
 
 /*--Lazy Load--*/
