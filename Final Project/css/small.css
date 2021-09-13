@@ -260,16 +260,30 @@ main{
 
 .boxGrid section img{
     width: 100%;
-    height: 150px;
+    height: 300px;
     object-fit: cover;
     z-index: -1;
     float: left;
-    transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
 
 }
 
+.boxGrid .line{
+    border-bottom: solid grey 2px;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 2em;
+    
+}
+
+
+
 #box1 {
     object-position: 60% 55%;
+}
+
+#box3 img{
+    object-position: 5% 5%;
 }
 
 
@@ -358,85 +372,19 @@ footer #copyright {
     grid-row: 6;
 }
 
-
-
-
-/*--------Apply---------*/
-form {
-    margin: auto;
-    max-width: 860px;
-    margin-top: 2rem;
-}
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid rgb(63, 63, 63);
-    border-radius: 5px;
-    padding: .5rem 2%;
-}
-
-form legend {
-    color: #999903;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-}
-
-form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #9c2c13;
-    font-size: 1rem;
-    
-}
-
-form label.top input, form label.top select {
-    -webkit-appearance: none;
-    display: block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #999903;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    max-width: 20rem;
-    width: 96%;
-    cursor: pointer;
-}
-
-form label.top input:required {
-    border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-    border-left: green solid 6px;
-
+footer h4{
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    font-size: .8em;
 }
 
 
-form p{
-    font-size: .8rem;
-}
 
 
-form #comment textarea{
-    display: block;
-    max-width: 100%;
+/*--------SERVICES---------*/
+.boxGrid p{
+    margin-bottom: 3em;
+    margin-top: .2em;
 }
 
 
@@ -471,6 +419,10 @@ form #comment textarea{
 
 
 /*----------Contact----------*/
+.contacth2{
+    margin-bottom: 2em;
+}
+
 #contactbox{
     width: 100%;
     background-color: #c4c46aa9 ;
@@ -479,6 +431,13 @@ form #comment textarea{
     line-height: 2em;
     margin-bottom: 1rem;
     
+}
+
+
+
+#contactbox h4{
+    margin: .5em;
+    text-align: center;
 }
 
 #contactbox ul li{
