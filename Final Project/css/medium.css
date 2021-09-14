@@ -38,13 +38,12 @@
         box-shadow: #999903 2px 2px 8px 1px; 
     }
 
-    .boxGrid section:hover{
-        margin-bottom: 2em;
+   
+
+    #odex {
+        max-height: 800px;
     }
 
-    .boxGrid section:hover img{
-        height: 600px;
-    }
 
     #box1 {
         object-position: 40% 65%;
